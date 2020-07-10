@@ -35,5 +35,10 @@ def run_test(questions):
     else:
         print("\nNone of the answers are correct\n")
 
-run_test(questions_set1)
+def main():
+    run_test(questions_set1)
 
+if __name__ == '__main__':
+    main()
+
+#end of code
